@@ -42,7 +42,7 @@ In ***File*** -> ***Plot...***
 
 - Convert the generated file to smt machine format by a python file in `tools/` folder. 
     ``` bash
-    python3 convert_form.py --file-name ../robotfish_v8/main_board/releases/v1_3_rev1/robotfish_v8-top-pos.csv
+    python3 convert_form.py --file-name ../YOUR_FOLDER_PATH/PROJECT-top-pos.csv
     ```
 - An output.csv will be generated in `tools/`. 
 - If the footprint name is too long, for example "JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical
